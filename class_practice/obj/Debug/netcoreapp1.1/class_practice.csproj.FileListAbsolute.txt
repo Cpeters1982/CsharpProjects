@@ -1,0 +1,8 @@
+/Users/wallofyawn/csharp_stack/class_practice/bin/Debug/netcoreapp1.1/class_practice.deps.json
+/Users/wallofyawn/csharp_stack/class_practice/bin/Debug/netcoreapp1.1/class_practice.runtimeconfig.json
+/Users/wallofyawn/csharp_stack/class_practice/bin/Debug/netcoreapp1.1/class_practice.runtimeconfig.dev.json
+/Users/wallofyawn/csharp_stack/class_practice/bin/Debug/netcoreapp1.1/class_practice.dll
+/Users/wallofyawn/csharp_stack/class_practice/bin/Debug/netcoreapp1.1/class_practice.pdb
+/Users/wallofyawn/csharp_stack/class_practice/obj/Debug/netcoreapp1.1/class_practice.AssemblyInfo.cs
+/Users/wallofyawn/csharp_stack/class_practice/obj/Debug/netcoreapp1.1/class_practice.dll
+/Users/wallofyawn/csharp_stack/class_practice/obj/Debug/netcoreapp1.1/class_practice.pdb
