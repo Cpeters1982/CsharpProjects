@@ -1,0 +1,8 @@
+/Users/wallofyawn/csharp_stack/puzzles_assignment/bin/Debug/netcoreapp1.1/puzzles_assignment.deps.json
+/Users/wallofyawn/csharp_stack/puzzles_assignment/bin/Debug/netcoreapp1.1/puzzles_assignment.runtimeconfig.json
+/Users/wallofyawn/csharp_stack/puzzles_assignment/bin/Debug/netcoreapp1.1/puzzles_assignment.runtimeconfig.dev.json
+/Users/wallofyawn/csharp_stack/puzzles_assignment/obj/Debug/netcoreapp1.1/puzzles_assignment.AssemblyInfo.cs
+/Users/wallofyawn/csharp_stack/puzzles_assignment/bin/Debug/netcoreapp1.1/puzzles_assignment.dll
+/Users/wallofyawn/csharp_stack/puzzles_assignment/bin/Debug/netcoreapp1.1/puzzles_assignment.pdb
+/Users/wallofyawn/csharp_stack/puzzles_assignment/obj/Debug/netcoreapp1.1/puzzles_assignment.dll
+/Users/wallofyawn/csharp_stack/puzzles_assignment/obj/Debug/netcoreapp1.1/puzzles_assignment.pdb
