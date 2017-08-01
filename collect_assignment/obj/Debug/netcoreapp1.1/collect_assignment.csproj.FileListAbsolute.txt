@@ -1,0 +1,8 @@
+/Users/wallofyawn/csharp_stack/collect_assignment/bin/Debug/netcoreapp1.1/collect_assignment.deps.json
+/Users/wallofyawn/csharp_stack/collect_assignment/bin/Debug/netcoreapp1.1/collect_assignment.runtimeconfig.json
+/Users/wallofyawn/csharp_stack/collect_assignment/bin/Debug/netcoreapp1.1/collect_assignment.runtimeconfig.dev.json
+/Users/wallofyawn/csharp_stack/collect_assignment/bin/Debug/netcoreapp1.1/collect_assignment.dll
+/Users/wallofyawn/csharp_stack/collect_assignment/bin/Debug/netcoreapp1.1/collect_assignment.pdb
+/Users/wallofyawn/csharp_stack/collect_assignment/obj/Debug/netcoreapp1.1/collect_assignment.AssemblyInfo.cs
+/Users/wallofyawn/csharp_stack/collect_assignment/obj/Debug/netcoreapp1.1/collect_assignment.dll
+/Users/wallofyawn/csharp_stack/collect_assignment/obj/Debug/netcoreapp1.1/collect_assignment.pdb

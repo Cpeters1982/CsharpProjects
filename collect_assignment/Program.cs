@@ -6,7 +6,16 @@ namespace collect_assignment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            dog rex = new dog("Muggsy", 75, 4);
+            rex.move();
+            rex.speak();
+            System.Console.WriteLine(rex.position);
+
+            bird tweety = new bird("Tweety", 2, 2);
+            tweety.move();
+            tweety.move();
+            tweety.speak();
+            System.Console.WriteLine("Tweety flew " + tweety.position + " feet!");
         }
     }
 }
