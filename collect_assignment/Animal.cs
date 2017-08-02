@@ -9,15 +9,18 @@ namespace collect_assignment
         public int moveSpeed = 1;
 
 
-        public Animal (string name, int  weight, int legs){
+        public Animal (string name, int  weight, int legs)
+        {
             this.name = name;
             this.weight = weight;
             this.legs = legs;
         }
-        public void speak(){
-            System.Console.WriteLine("HI!");
+        public void speak()
+        {
+        
         }
-        public void move(){
+        public void move()
+        {
             this.position += this.moveSpeed;
         }
     }

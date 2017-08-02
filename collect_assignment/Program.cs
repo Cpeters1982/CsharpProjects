@@ -9,7 +9,7 @@ namespace collect_assignment
             dog rex = new dog("Muggsy", 75, 4);
             rex.move();
             rex.speak();
-            System.Console.WriteLine(rex.position);
+            System.Console.WriteLine("Muggsy walked " + rex.position + " feet!");
 
             bird tweety = new bird("Tweety", 2, 2);
             tweety.move();
