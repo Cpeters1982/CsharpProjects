@@ -14,8 +14,8 @@ namespace deck_of_cards
         public Deck reset()
         {
             cards = new List<Card>();
-            string[] suits = {"hearts","diamonds","spades","clubs"};
-            string[] strVals = {"Ace","two","three","four","five","six","seven","eight","nine","ten","Jack","Queen","King"};
+            string[] suits = {"Hearts","Diamonds","Spades","Clubs"};
+            string[] strVals = {"Ace","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Jack","Queen","King"};
             // for each suit assemble set of cards
             foreach(string Suit in suits)
             {
