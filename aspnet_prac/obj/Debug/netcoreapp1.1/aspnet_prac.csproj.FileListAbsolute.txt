@@ -1,0 +1,8 @@
+/Users/wallofyawn/csharp_stack/aspnet_prac/bin/Debug/netcoreapp1.1/aspnet_prac.deps.json
+/Users/wallofyawn/csharp_stack/aspnet_prac/bin/Debug/netcoreapp1.1/aspnet_prac.runtimeconfig.json
+/Users/wallofyawn/csharp_stack/aspnet_prac/bin/Debug/netcoreapp1.1/aspnet_prac.runtimeconfig.dev.json
+/Users/wallofyawn/csharp_stack/aspnet_prac/bin/Debug/netcoreapp1.1/aspnet_prac.dll
+/Users/wallofyawn/csharp_stack/aspnet_prac/bin/Debug/netcoreapp1.1/aspnet_prac.pdb
+/Users/wallofyawn/csharp_stack/aspnet_prac/obj/Debug/netcoreapp1.1/aspnet_prac.AssemblyInfo.cs
+/Users/wallofyawn/csharp_stack/aspnet_prac/obj/Debug/netcoreapp1.1/aspnet_prac.dll
+/Users/wallofyawn/csharp_stack/aspnet_prac/obj/Debug/netcoreapp1.1/aspnet_prac.pdb
