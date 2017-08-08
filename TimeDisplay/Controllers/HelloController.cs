@@ -7,10 +7,22 @@ namespace TimeDisplay.Controllers
     public class HelloController : Controller
     {
         [HttpGet]
-        [Route("{FirstName}/{LastName}/{Age}/{FavColor}")]
-        public JsonResult CallCard(string FirstName, string LastName, int Age, string FavColor)
+        [Route("")]
+        public IActionResult Index()
         {
-            return Json(new {FirstName = FirstName, LastName = LastName, Age = Age, FavoriteColor = FavColor});
+            return View();
+        }
+        [HttpGet]
+        [Route("projects")]
+        public IActionResult Projects()
+        {
+            return View();
+        }
+        [HttpGet]
+        [Route("contact")]
+        public IActionResult Contact()
+        {
+            return View();
         }
     }
 }

@@ -28,10 +28,14 @@ namespace TimeDisplay
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseStaticFiles();
+            {
 
+            }
+            
             app.UseMvc();
             {
-             
+
             
             }
         }
