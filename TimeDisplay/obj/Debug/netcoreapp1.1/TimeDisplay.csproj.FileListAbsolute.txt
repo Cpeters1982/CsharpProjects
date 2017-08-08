@@ -1,0 +1,8 @@
+/Users/wallofyawn/csharp_stack/TimeDisplay/bin/Debug/netcoreapp1.1/TimeDisplay.deps.json
+/Users/wallofyawn/csharp_stack/TimeDisplay/bin/Debug/netcoreapp1.1/TimeDisplay.runtimeconfig.json
+/Users/wallofyawn/csharp_stack/TimeDisplay/bin/Debug/netcoreapp1.1/TimeDisplay.runtimeconfig.dev.json
+/Users/wallofyawn/csharp_stack/TimeDisplay/bin/Debug/netcoreapp1.1/TimeDisplay.dll
+/Users/wallofyawn/csharp_stack/TimeDisplay/bin/Debug/netcoreapp1.1/TimeDisplay.pdb
+/Users/wallofyawn/csharp_stack/TimeDisplay/obj/Debug/netcoreapp1.1/TimeDisplay.AssemblyInfo.cs
+/Users/wallofyawn/csharp_stack/TimeDisplay/obj/Debug/netcoreapp1.1/TimeDisplay.dll
+/Users/wallofyawn/csharp_stack/TimeDisplay/obj/Debug/netcoreapp1.1/TimeDisplay.pdb
