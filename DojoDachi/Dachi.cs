@@ -63,7 +63,7 @@ namespace DojoDachi
             this.energy += 15;
             this.fullness -= 5;
             this.happiness -= 5;
-            this.status = "Your Dachi slept like the dead! (Don't worry, she's not actually dead...";
+            this.status = "Your Dachi slept like the dead! (Don't worry, she's not actually dead...)";
             if (fullness < 0 || happiness < 0)
             {
                 this.status = "Your Dachi has passed away. Rest in Power, Dachi!";
