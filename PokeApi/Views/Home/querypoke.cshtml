@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pokémon Info</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Pokémon Info</h1>
+        <h2> <b>Name:</b> @ViewBag.Pokemon.Name </h2>
+        <p> <b>Height:</b> </p>
+        <p>@ViewBag.Pokemon.Height</p>
+        <p> <b>Weight:</b></p>
+        <p>@ViewBag.Pokemon.Weight</p>
+        <p> <b>Types:</b> </p>
+        @{
+            for (int i = 0; i < @ViewBag.Pokemon.Types.Count; i++)
+            {
+                <p> @ViewBag.Pokemon.Types[i] </p> 
+            };
+        }
+    
+    </body>
+</html>
