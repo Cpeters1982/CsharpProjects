@@ -1,0 +1,8 @@
+/Users/wallofyawn/csharp_stack/practice_banas/bin/Debug/netcoreapp1.1/practice_banas.deps.json
+/Users/wallofyawn/csharp_stack/practice_banas/bin/Debug/netcoreapp1.1/practice_banas.runtimeconfig.json
+/Users/wallofyawn/csharp_stack/practice_banas/bin/Debug/netcoreapp1.1/practice_banas.runtimeconfig.dev.json
+/Users/wallofyawn/csharp_stack/practice_banas/bin/Debug/netcoreapp1.1/practice_banas.dll
+/Users/wallofyawn/csharp_stack/practice_banas/bin/Debug/netcoreapp1.1/practice_banas.pdb
+/Users/wallofyawn/csharp_stack/practice_banas/obj/Debug/netcoreapp1.1/practice_banas.AssemblyInfo.cs
+/Users/wallofyawn/csharp_stack/practice_banas/obj/Debug/netcoreapp1.1/practice_banas.dll
+/Users/wallofyawn/csharp_stack/practice_banas/obj/Debug/netcoreapp1.1/practice_banas.pdb
