@@ -6,14 +6,26 @@ namespace human_proj
 
         public int strength = 3;
         public int intelligence = 3;
-        public int dex = 3;
+        public int dexterity = 3;
         public int health = 100;
-        public Human (string name, int strength, int intelligence, int dex, int health){
-            this.name = name;
-            this.strength = strength;
-            this.intelligence = intelligence;
-            this.dex = dex;
-            this.health = health; 
+        public Human(string alias)
+        {
+            name = alias;
+        }
+        public Human (string alias, int str, int intl, int dex, int hp)
+        {
+            name = alias;
+            strength = str;
+            intelligence = intl;
+            dexterity = dex;
+            health = hp;
+        }
+        public void Attack(object enemy)
+        {
+            Human foe = enemy as Human;
+            if(enemy != null){
+                foe.health -= 5 * strength;
+            }
         }
     }
 }

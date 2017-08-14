@@ -1,0 +1,8 @@
+/Users/wallofyawn/csharp_stack/human_proj/bin/Debug/netcoreapp1.1/human_proj.deps.json
+/Users/wallofyawn/csharp_stack/human_proj/bin/Debug/netcoreapp1.1/human_proj.runtimeconfig.json
+/Users/wallofyawn/csharp_stack/human_proj/bin/Debug/netcoreapp1.1/human_proj.runtimeconfig.dev.json
+/Users/wallofyawn/csharp_stack/human_proj/bin/Debug/netcoreapp1.1/human_proj.dll
+/Users/wallofyawn/csharp_stack/human_proj/bin/Debug/netcoreapp1.1/human_proj.pdb
+/Users/wallofyawn/csharp_stack/human_proj/obj/Debug/netcoreapp1.1/human_proj.AssemblyInfo.cs
+/Users/wallofyawn/csharp_stack/human_proj/obj/Debug/netcoreapp1.1/human_proj.dll
+/Users/wallofyawn/csharp_stack/human_proj/obj/Debug/netcoreapp1.1/human_proj.pdb

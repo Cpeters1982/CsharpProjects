@@ -6,7 +6,10 @@ namespace human_proj
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Human one = new Human("Jean Claude Van-Damme",50,50,50,1000);
+            Human two = new Human("Arnold Schwarzenegger",50,50,50,1000);
+            one.Attack(two);
+            System.Console.WriteLine($"{one.name} knocked {two.name}'s health down to {two.health}");
         }
     }
 }
