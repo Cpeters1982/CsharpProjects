@@ -15,7 +15,7 @@ namespace MvcMovie.Controllers
 
         public MoviesController(MvcMovieContext context)
         {
-            _context = context;    
+            _context = context;
         }
 
         // GET: Movies
