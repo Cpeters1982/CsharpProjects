@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using MvcMovie.Models;
 
 namespace MvcMovie
 {
@@ -29,6 +31,8 @@ namespace MvcMovie
         {
             // Add framework services.
             services.AddMvc();
+            services.AddDbContext<MvcMovieContext>(options =>
+                    options.UseSqlite("Data Source=MvcMovie.db"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,7 +58,12 @@ namespace MvcMovie
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+                    // When you run the app and don't supply any URL segments, it defaults to the "Home" controller and the "Index" method specified above.
+
+                    // The Welcome (in HelloWorldController) method contains a parameter "id" that matched the URL template in the MapRoute method. The trailing ? (in id?) indicates the id parameter is optional.
             });
+            DBinitialize.EnsureCreated(app.ApplicationServices);
+            SeedData.Initialize(app.ApplicationServices);
         }
     }
 }
