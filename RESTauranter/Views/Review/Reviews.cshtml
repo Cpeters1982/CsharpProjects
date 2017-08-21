@@ -1,0 +1,13 @@
+<h1>Reviews</h1>
+
+@foreach(var review in @ViewBag.Reviews)
+{   string TheTime = String.Format("{0:M/d/yyyy}", @review.VisitDate);
+    <h2>Restaurant: @review.Restaurant</h2>
+
+    <h3>@review.Stars STAR</h3>
+    <h4>Reviewer: @review.Reviewer</h4>
+    <h4>Visit Date: @TheTime</h4>
+
+    <p>@review.Content</p>
+    <p>--------------------------------------------------------------------------------------------</p>
+}

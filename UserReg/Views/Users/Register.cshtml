@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Login and Register";
+}
+
+@model UserReg.Models.RegisterViewModel
+
+<h1>Login and Register</h1>
+
+<h2>Registration</h2>
+<p>Please fill out the form below to continue</p>
+<p>Already a user?</p>
+<a href="UserLogin"><button>Login</button></a>
+<br><br>
+
+<div class="left">
+    <form asp-controller="Users" asp-action="Register" method="Post">
+
+        <label for='first_name'>First Name: </label><br>
+        <input asp-for="first_name"/>
+        <span asp-validation-for="first_name"></span>
+        <br>
+
+        <label for='last_name'>Last Name: </label><br>
+        <input asp-for="last_name"/>
+        <span asp-validation-for="last_name"></span>
+        <br>
+
+        <label for='email'>Email: </label><br>
+        <input asp-for="email"/>
+        <span asp-validation-for="email"></span>
+        <br>
+
+        <label for='username'>Username: </label><br>
+        <input asp-for="username"/>
+        <span asp-validation-for="username"></span>
+        <br>
+
+        <label for='password'>Password: </label><br>
+        <input type="password" asp-for="password"/>
+        <span asp-validation-for="password"></span>
+        <br>
+
+        <label for='PasswordConfirmation'>Confirm Password: </label><br>
+        <input asp-for="PasswordConfirmation" type="password"/>
+        <span asp-validation-for="PasswordConfirmation"></span>
+        <br><br>
+
+        <button class="registerbutton" type="submit">Register!</button>
+
+    </form>
+</div>

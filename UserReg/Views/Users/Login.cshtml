@@ -1,0 +1,21 @@
+<h1>Login and Register</h1>
+
+<h2>Login</h2>
+<p>Please fill out the form below to continue</p>
+<form asp-controller="Users" asp-action="Login" method='post'>
+    <div class='form-group'>
+        <label for='email'>Email: </label>
+        <br>
+        <input type='text' name="Email">
+        </div>
+        <div class='form-group'>
+            <label for='PasswordToCheck'>Password: </label>
+            <br>
+            <input type='password' name="PasswordToCheck">
+        </div>
+        <br>
+        <button class="loginbutton" type='submit'>Login!</button>
+    </form>
+
+<br><br><br>
+<a href="/">Back</a>
